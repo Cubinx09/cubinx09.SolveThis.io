@@ -1,2 +1,2 @@
-# cubinx09.SolveThis.io
+# Can You Solve This?
 Fifth project for the Athena Awards.
