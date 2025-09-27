@@ -1,3 +1,20 @@
 body{
     background-color: lightblue;
 }
+
+h1,h3{
+    font-family: "Lucida sans", sans-serif;
+}
+h1{
+    font-size: 50px;
+    text-decoration-line: underline;
+}
+h3{
+    font-size: 25px;
+}
+button{
+    margin: 20px;
+    font-size: 18px;
+    width: 180px;
+    height: 110px;
+}

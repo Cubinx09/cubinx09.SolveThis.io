@@ -7,3 +7,6 @@ function incorrect(){
 function funny(){
     alert("Funny answer but it is.... INCORRECT!!")
 }
+function what(){
+    alert("Fair.")
+}
