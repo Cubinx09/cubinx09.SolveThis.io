@@ -1,10 +1,9 @@
 body{
-    background-color: lightblue;
+    background-image: linear-gradient(rgb(19, 19, 255),rgb(0, 219, 235));
+    font-family: "Lucida sans", sans-serif;
+    color: white;
 }
 
-h1,h3{
-    font-family: "Lucida sans", sans-serif;
-}
 h1{
     font-size: 50px;
     text-decoration-line: underline;
@@ -15,6 +14,23 @@ h3{
 button{
     margin: 20px;
     font-size: 18px;
+    font-weight: bold;
     width: 180px;
     height: 110px;
+    box-shadow: 5px 5px;
+    border-radius: 3px;
+}
+.box{
+    background-color: purple;
+    opacity: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+.box.open{
+    opacity: 1;
+    z-index: 999;
 }
