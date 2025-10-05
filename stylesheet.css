@@ -1,20 +1,30 @@
+html{
+    width: 100%;
+    height: 100%;
+}
 body{
-    background-color: rgb(255, 196, 0);
+    background-color: rgb(29, 226, 210);
     background-size: cover;
     font-family: "Lucida sans", sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 h1{
+    background: rgb(250, 250, 250);
+    width: 60%;
+    border-radius: 5px;
+    padding: 20px;
     font-size: 50px;
+    color: black;
     text-decoration-line: underline;
 }
 h3{
+    text-indent: 1rem;
     font-size: 32px;
 }
 
 button{
-    background-color: red;
+    background-color: rgb(251, 255, 22);
     margin: 10px;
     padding: 40px;
     width: 70%;
@@ -24,7 +34,7 @@ button{
     box-shadow: 3px 5px black;
 }
 button:hover{
-    background-color: rgb(182, 3, 3) ; 
+    background-color: rgb(255, 217, 0) ; 
 }
 
 .modal{
@@ -35,10 +45,10 @@ button:hover{
     top:0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .modal-content{
-    background-color: blue;
+    background-color: rgb(153, 0, 26);
     border-radius: 3px;
     margin: 15% auto;
     padding: 20px;
