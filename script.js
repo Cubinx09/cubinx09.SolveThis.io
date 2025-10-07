@@ -31,7 +31,7 @@ btn.onclick = function(){
 buton.onclick = function(){
     modal.style.display = 'block';
 }
-qutton.oinclick = function(){
+qutton.onclick = function(){
     modal.style.display = 'block';
 }
 zutton.onclick = function(){
